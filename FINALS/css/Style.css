@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../4.jpg);
+	height: 100vh; 
+	background-size: cover;
+	background-position: center;
+}	
+	
+ul{
+    float: right;	
+    list-style-type: none;
+	margin-top: 25px
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+   	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent; 
+	transition: 0.6s ease;
+}
+
+
+ul li a:hover{
+	background-color: #fff;
+	coLor: #000;
+	
+}	
+
+ul li.active a{
+	background-color: #fff;
+	coLor: #000;
+}		
+
+.logo img{
+	padding: 10px;
+	float: left; 
+	width: 100px;
+	height: auto;
+}	
+
+
+.main{
+	max-width: 1330px;
+	margin: auto;
+}		
+
+.logo1 img{
+	padding: 10px;
+	float: left;
+	width:80px;
+	height: auto;
+}	
+
+.main1{
+	position: absolute;
+	bottom: 80px;
+	right: 0px;
+}
+
+.logo2 img{
+	padding: 10px;
+	float: left;
+	width:100px;
+	height: auto;
+}	
+
+.main2{
+	position: absolute;
+	bottom: -10px;
+	right: 90px;
+}
+
+.title{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.quote{
+	color: #fff;
+	font-size: 13px;
+	position: absolute;
+	top: 88%;
+	left: 43%;
+	transform: translate(-25%,-25%);
+}	
+
+.quote-structure{
+	color: #fff;
+	font-size: 7px;
+	text-align: center;
+	position: absolute;
+	top: 94%;
+	left: 30%;
+	transform: translate(-25%,-25%);
+}	
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}	
+	
